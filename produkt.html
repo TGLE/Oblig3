@@ -1,1 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IF-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/4249ae9429.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <div class="grid-container">
+            <header>
+                <h1 class="header-title">Welcome to Scorpio!</h1>
+                <nav>
+                    <ul class="desktop">
+                        <li class="dropdown-select">
+                            <a href="#"><img src="img/Scorpion.png" class="profile"></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Messages</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a href="index.html" class="menu-select"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-heart"></i> Favorites</a></li>
+                        
+                        <li class="search-container">
+                            <ul class="search-bar">
+                                <li class="dropdown-select">
+                                        <a href="#">All Categories <i class="fa-solid fa-arrow-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Category 1</a></li>
+                                            <li><a href="#">Category 2</a></li>
+                                            <li><a href="#">Category 3</a></li>
+                                        </ul>
+                                    </li>
+                                <li class="search-box">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Search">
+                                </li>
+                            </ul>
+                        </li>   
+    
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-gift"></i> Gifts</a></li>
+                        <li><a href="innstillinger.html" class="menu-select"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                    </ul>
 
+                    <ul class="mobile">
+                        <li class="dropdown-select">
+                            <a href="#"><img src="img/Scorpion.png" class="profile"></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Messages</a></li>
+                                <li><a href="innstillinger.html">Settings</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                        <li class="search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search">
+                            <i class="fa-solid fa-barcode barcode"></i>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav">
+                        <li><a href="index.html" class="menu-select"><i class="fa-solid fa-house fa-2x"></i></a></li>
+                        <li class="dropdown-select">
+                            <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-select">Men</a></li>
+                                <li><a href="#" class="menu-select">Women</a></li>
+                                <li><a href="#" class="menu-select">Kids</a></li>
+                                <li><a href="#" class="menu-select">Featured</a></li>
+                                <li><a href="#" class="menu-select">Trending</a></li>
+                                <li><a href="#" class="menu-select">Recent</a></li>
+                                <li><a href="#" class="menu-select">Sports</a></li>
+                                <li><a href="#" class="menu-select">Brands</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-heart fa-2x"></i></a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-gift fa-2x"></i></a></li>
+                    </ul>
+                    <hr class="nav-break">
+                </nav>
+            </header>
+            <main>
+                <ul class="product-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <span>></span>
+                    <li><a href="index.html">Daily Deals</a></li>
+                    <span>></span>
+                    <li><a href="produkt.html">Beginner's Shoe</a></li>
+                </ul>
+                <img src="/img/BeginnerShoe.jpg" class="product-image" id="desk-image">
+                <section class="product-main">
+                    <article class="product-suggest" id="products-like">
+                        <img src="img/BeginnerShoe.jpg" class="product-image" id="product-image">
+                        <ul class="product-header" id="you-like">
+                            <li><h2>You may also like</h2></li>
+                            <li><a href="#" class="product-text">See more <i class="fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                        <ul class="image-box">
+                            <li class="item-1">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-2">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-3">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                        </ul>
+                    </article>
+    
+                    <article class="product-options">
+                        <ul class="product-name">
+                            <li><h2>Beginner's Shoe</h2></li>
+                            <li><p>10.00 USD</p></li>
+                        </ul>
+                        <ul class="product-info">
+                            <li><button class="btn-1">About this item</button></li>
+                            <li><button class="btn-2">Shipping and Delivery</button></li>
+                        </ul>
+                        <ul class="info-box">
+                            <li>This is what you should buy</li>
+                        </ul>
+                        <ul class="options">
+                            <li class="desktop-option">
+                                <ul>
+                                    <li><button>Red</button></li>
+                                    <li><button>Blue</button></li>
+                                    <li><button>Green</button></li>
+                                </ul>
+                            </li>
+                            <li class="desktop-option">
+                                <ul>
+                                    <li><button>Small</button></li>
+                                    <li><button>Medium</button></li>
+                                    <li><button>Large</button></li>
+                                    <li><button>XLarge</button></li>
+                                    <li><button>XXLarge</button></li>
+                                </ul>
+                            </li>
+                            <li class="desktop-option"><button>1 <i class="fa-solid fa-plus"></i></button></li>
+                            <li class="dropdown-select">
+                                <a href="#"><button>Info <i class="fa-solid fa-circle-info"></i></button></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">About this item</a></li>
+                                    <li><a href="#">Shipping and Delivery</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-select">
+                                <a href="#"><button>Color <i class="fa-solid fa-droplet"></i></button></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Red</a></li>
+                                    <li><a href="#">Green</a></li>
+                                    <li><a href="#">Blue</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-select">
+                                <a href="#"><button>Size <i class="fa-solid fa-expand"></i></button></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Small</a></li>
+                                    <li><a href="#">Medium</a></li>
+                                    <li><a href="#">Large</a></li>
+                                    <li><a href="#">XLarge</a></li>
+                                    <li><a href="#">XXLarge</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-select">
+                                <a href="#"><button>Quantity <i class="fa-solid fa-plus"></i></button></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                </ul>
+                            </li>
+                            <li><button>Favorite <i class="fa-solid fa-heart"></i></button></li>
+                            <li><button>Report <i class="fa-solid fa-flag"></i></button></li>
+                            <li><button>Add to Cart <i class="fa-solid fa-shopping-cart"></i></button></li>
+                        </ul>
+                        <hr>
+                        <ul class="customer-reviews">
+                            <li><h2>Customer Reviews</h2></li>
+                            <li class="dropdown-select" id="top-review">
+                                <a href="#">Top Reviews<i class="fa-solid fa-arrow-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Newest</a></li>
+                                    <li><a href="#">Oldest</a></li>
+                                    <li><a href="#">Controversial</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="review-container">
+                            <ul class="star-ratings">
+                                <li><button class="star-button"><i class="fa-solid fa-face-smile-beam fa-2x"></i><i class="fa-solid fa-star fa-2x star-icon"></i></a></button>
+                                <li><button class="star-button"><i class="fa-solid fa-face-smile fa-2x"></i><i class="fa-solid fa-star fa-2x star-icon"></i></a></button>
+                                <li><button class="star-button"><i class="fa-solid fa-face-frown fa-2x"></i><i class="fa-solid fa-star fa-2x star-icon"></i></a></button>
+                            </ul>
+                            <form class="comment-box">
+                                <span>Write a Review</span>
+                                <textarea class="your-comment" rows="6" cols="30"></textarea>
+                            </form>
+                            <ul class="user-comments">
+                                <li class="comment"><i class="fa-solid fa-user fa-2x"></i> EXCELLENT!</li>
+                                <li><i class="fa-solid fa-user fa-2x"></i> GREAT!</li>
+                                <li><i class="fa-solid fa-user fa-2x"></i> HORRIBLE!</li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                <section class="footer-box1">
+                    <h3>About Scorpio</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Relations</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box2">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Frequently Asked Questions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment and Security</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Return and Refund</a></li>
+                        <li><a href="#">Private Policy</a></li>
+                    </ul>
+                </section>
+
+                <ul class="footer-policy">
+                    <li><small><a href="#">Conditions of Use</a></small></li>
+                    <li><small><a href="#">Privacy Notice</a></small></li>
+                    <li><small><a href="#">Your Ads Privacy Choices</a></small></li>
+                    <li><small>&copy; 1995-2023 Scorpio Inc. All Rights Reserved.</small></li>
+                </ul>
+
+                <ul class="languages">
+                    <li class="dropdown-select">
+                        <a href="#"><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Norwegian</a></li>
+                            <li><a href="#">Swedish</a></li>
+                            <li><a href="#">Danish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <section class="footer-box3">
+                    <h3>Devices and Tools</h3>
+                    <ul>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-download">
+                    <h3>Download our App!</h3>
+                    <ul>
+                        <li><a href="https://www.apple.com/"><i class="fa-brands fa-apple"></i> Apple Store</a></li>
+                        <li><a href="https://play.google.com/"><i class="fa-brands fa-google-play"></i> Google Play</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box4">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Giveaways</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box5">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </body>
+</html>

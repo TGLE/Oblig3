@@ -1,1 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IF-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Front Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/4249ae9429.js" crossorigin="anonymous"></script>
+    </head>
 
+    <body>
+        <div class="grid-container">
+            <header>
+                <h1 class="header-title">Welcome to Scorpio!</h1>
+                <nav>
+                    <ul class="desktop">
+                        <li class="dropdown-select">
+                            <a href="#"><img src="img/Scorpion.png" class="profile"></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Messages</a></li>
+                                <li><a href="innstillinger.html">Settings</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a href="index.html" class="menu-select"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-heart"></i> Favorites</a></li>
+                        
+                        <li class="search-container">
+                            <ul class="search-bar">
+                                <li class="dropdown-select">
+                                        <a href="#">All Categories <i class="fa-solid fa-arrow-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Category 1</a></li>
+                                            <li><a href="#">Category 2</a></li>
+                                            <li><a href="#">Category 3</a></li>
+                                        </ul>
+                                    </li>
+                                <li class="search-box">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Search">
+                                </li>
+                            </ul>
+                        </li>   
+    
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-gift"></i> Gifts</a></li>
+                        <li><a href="innstillinger.html" class="menu-select"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                    </ul>
+
+                    <ul class="mobile">
+                        <li class="dropdown-select">
+                            <a href="#"><img src="img/Scorpion.png" class="profile"></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Messages</a></li>
+                                <li><a href="innstillinger.html">Settings</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                        <li class="search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search">
+                            <i class="fa-solid fa-barcode barcode"></i>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav">
+                        <li><a href="index.html" class="menu-select"><i class="fa-solid fa-house fa-2x"></i></a></li>
+                        <li class="dropdown-select">
+                            <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-select">Men</a></li>
+                                <li><a href="#" class="menu-select">Women</a></li>
+                                <li><a href="#" class="menu-select">Kids</a></li>
+                                <li><a href="#" class="menu-select">Featured</a></li>
+                                <li><a href="#" class="menu-select">Trending</a></li>
+                                <li><a href="#" class="menu-select">Recent</a></li>
+                                <li><a href="#" class="menu-select">Sports</a></li>
+                                <li><a href="#" class="menu-select">Brands</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-heart fa-2x"></i></a></li>
+                        <li><a href="#" class="menu-select"><i class="fa-solid fa-gift fa-2x"></i></a></li>
+                    </ul>
+                    <hr class="nav-break">
+                </nav>
+            </header>
+            <main>
+                <ul class="categories">
+                    <li class="all-cat"><a href="#" class="menu-select"><i class="fa-solid fa-bars"></i> All Categories</a></li>
+                    <li class="cat-men"><a href="#" class="menu-select">Men</a></li>
+                    <li class="cat-women"><a href="#" class="menu-select">Women</a></li>
+                    <li class="cat-kids"><a href="#" class="menu-select">Kids</a></li>
+                    <li class="cat-featured"><a href="#" class="menu-select">Featured</a></li>
+                    <li class="cat-trending"><a href="#" class="menu-select">Trending</a></li>
+                    <li class="cat-recent"><a href="#" class="menu-select">Recent</a></li>
+                    <li class="cat-sports"><a href="#" class="menu-select">Sports</a></li>
+                    <li class="cat-brands"><a href="#" class="menu-select">Brands</a></li>
+                </ul>
+                <div class="main-container">
+                    <article class="limited-product">
+                        <h2>LIMITED TIME OFFERS!</h2>
+                        <h3>GET UP TO 75% DISCOUNTS<br>ON THESE ITEMS!</h3>
+                        <a href="produkt.html" class="product-text">Purchase now <i class="fa-solid fa-arrow-right"></i></a>
+                        <ul class="image-box">
+                            <li>
+                                <a href="#"><img src="img/BeginnerShoe.jpg" class="stock-image"></a>
+                                <a href="#"><img src="img/BeginnerShoe.jpg" class="stock-image"></a>
+                                <a href="#"><img src="img/BeginnerShoe.jpg" class="stock-image"></a>
+                                <a href="#"><img src="img/BeginnerShoe.jpg" class="stock-image"></a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="product-suggest" id="daily-deals">
+                        <ul class="product-header">
+                        <li><h2>Daily Deals</h2></li>
+                        <li><a href="#" class="product-text">See more <i class="fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                        <ul class="image-box">
+                            <li class="item-1">
+                                <a href="produkt.html"><img src="img/BeginnerShoe.jpg" class="stock-image" id="beginner"></a>
+                                <h4>Beginner's Shoe</h4>
+                                <p>10.00 USD</p>
+                            </li>
+                            <li class="item-2">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-3">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="product-suggest" id="popular">
+                        <ul class="product-header">
+                        <li><h2>Popular</h2></li>
+                        <li><a href="#" class="product-text">See more <i class="fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                        <ul class="image-box">
+                            <li class="item-1">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-2">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-3">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="product-suggest" id="nike">
+                        <ul class="product-header">
+                        <li><h2>By Nike</h2></li>
+                        <li><a href="#" class="product-text">See more <i class="fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                        <ul class="image-box">
+                            <li class="item-1">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-2">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                            <li class="item-3">
+                                <a href="#"><img src="img/ExpensiveShoe.jpg" class="stock-image"></a>
+                                <h4>Expensive Shoe</h4>
+                                <p>50.00 USD</p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </main>
+
+            <footer>
+                <section class="footer-box1">
+                    <h3>About Scorpio</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Relations</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box2">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Frequently Asked Questions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment and Security</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Return and Refund</a></li>
+                        <li><a href="#">Private Policy</a></li>
+                    </ul>
+                </section>
+
+                <ul class="footer-policy">
+                    <li><small><a href="#">Conditions of Use</a></small></li>
+                    <li><small><a href="#">Privacy Notice</a></small></li>
+                    <li><small><a href="#">Your Ads Privacy Choices</a></small></li>
+                    <li><small>&copy; 1995-2023 Scorpio Inc. All Rights Reserved.</small></li>
+                </ul>
+
+                <ul class="languages">
+                    <li class="dropdown-select">
+                        <a href="#"><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Norwegian</a></li>
+                            <li><a href="#">Swedish</a></li>
+                            <li><a href="#">Danish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <section class="footer-box3">
+                    <h3>Devices and Tools</h3>
+                    <ul>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-download">
+                    <h3>Download our App!</h3>
+                    <ul>
+                        <li><a href="https://www.apple.com/"><i class="fa-brands fa-apple"></i> Apple Store</a></li>
+                        <li><a href="https://play.google.com/"><i class="fa-brands fa-google-play"></i> Google Play</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box4">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Giveaways</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-box5">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </body>
+</html>
